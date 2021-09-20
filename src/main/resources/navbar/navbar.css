@@ -1,0 +1,8 @@
+#navbar {
+    -fx-background-color: lightblue;
+}
+
+.icon:hover .glyph-icon {
+    -fx-fill: white;
+    -fx-cursor: hand;
+}

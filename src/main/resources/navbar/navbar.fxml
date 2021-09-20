@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.GlyphsStack?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="navbar" prefHeight="720.0" prefWidth="100.0" stylesheets="@navbar.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.pzdrs.dataGraphs.Navbar">
+   <GlyphsStack layoutX="33.0" layoutY="228.0" styleClass="icon">
+      <children>
+         <FontAwesomeIconView glyphName="BAR_CHART" onMouseClicked="#showBar" size="35" styleClass="icon" />
+      </children>
+   </GlyphsStack>
+   <GlyphsStack layoutX="33.0" layoutY="103.0" onMouseClicked="#showPie" styleClass="icon">
+      <children>
+         <FontAwesomeIconView glyphName="PIE_CHART" onMouseClicked="#showPie" size="35" styleClass="icon" />
+      </children>
+   </GlyphsStack>
+   <GlyphsStack layoutX="33.0" layoutY="671.0" styleClass="icon">
+      <children>
+         <FontAwesomeIconView glyphName="DATABASE" onMouseClicked="#showData" size="35" styleClass="icon" />
+      </children>
+   </GlyphsStack>
+</AnchorPane>

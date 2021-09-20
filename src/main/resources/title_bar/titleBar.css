@@ -1,0 +1,7 @@
+#titleBar {
+    -fx-background-color: gray;
+}
+
+.icon:hover .glyph-icon {
+    -fx-fill: white;
+}
